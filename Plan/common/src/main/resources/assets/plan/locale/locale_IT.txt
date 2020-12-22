@@ -1,71 +1,71 @@
-API - css+                                      || PageExtension: ${0} added stylesheet(s) to ${1}, ${2}
-API - js+                                       || PageExtension: ${0} added javascript(s) to ${1}, ${2}
+API - css+                                      || PageExtension: ${0} aggiunto stylesheet(s) a ${1}, ${2}
+API - js+                                       || PageExtension: ${0} aggiunto javascript(s) a ${1}, ${2}
 Cmd - Click Me                                  || Cliccami
 Cmd - Link                                      || Link
-Cmd - Link Network                              || Network page: 
-Cmd - Link Player                               || Player page: 
-Cmd - Link Player JSON                          || Player json: 
-Cmd - Link Players                              || Players page: 
-Cmd - Link Register                             || Register page: 
-Cmd - Link Server                               || Server page: 
-CMD Arg - backup-file                           || Name of the backup file (case sensitive)
-CMD Arg - code                                  || Code used to finalize registration.
-CMD Arg - db type backup                        || Type of the database to backup. Current database is used if not specified.
-CMD Arg - db type clear                         || Type of the database to remove all data from.
-CMD Arg - db type hotswap                       || Type of the database to start using.
-CMD Arg - db type move from                     || Type of the database to move data from.
-CMD Arg - db type move to                       || Type of the database to move data to. Can not be same as previous.
-CMD Arg - db type restore                       || Type of the database to restore to. Current database is used if not specified.
-CMD Arg - feature                               || Name of the feature to disable: ${0}
-CMD Arg - player identifier                     || Name or UUID of a player
-CMD Arg - player identifier remove              || Identifier for a player that will be removed from current database.
-CMD Arg - server identifier                     || Name, ID or UUID of a server
-CMD Arg - subcommand                            || Use the command without subcommand to see help.
-CMD Arg - username                              || Username of another user. If not specified player linked user is used.
+Cmd - Link Network                              || Pagina Network: 
+Cmd - Link Player                               || Pagina giocatore: 
+Cmd - Link Player JSON                          || json giocatore: 
+Cmd - Link Players                              || Pagina giocatori: 
+Cmd - Link Register                             || Pagina eegistrati: 
+Cmd - Link Server                               || Pagina Server: 
+CMD Arg - backup-file                           || Nome del file di backup (case sensitive)
+CMD Arg - code                                  || Codice utilizzato per finalizzare la registrazione.
+CMD Arg - db type backup                        || Tipo di database si cui fare il backup. Se non specificato, viene utilizzato il database corrente.
+CMD Arg - db type clear                         || Tipo di database da cui rimuovere tutti i dati.
+CMD Arg - db type hotswap                       || Tipo di database da usare.
+CMD Arg - db type move from                     || Tipo di database da cui spostare i dati.
+CMD Arg - db type move to                       || Tipo di database in cui spostare i dati. Non può essere uguale al precedente.
+CMD Arg - db type restore                       || Tipo di database in cui eseguire il ripristino. Se non specificato, viene utilizzato il database corrente.
+CMD Arg - feature                               || Nome della funzionalità da disabilitare: ${0}
+CMD Arg - player identifier                     || Nome o UUID del giocatore.
+CMD Arg - player identifier remove              || Identificatore di un giocatore che verrà rimosso dal database corrente.
+CMD Arg - server identifier                     || Name, ID o UUID di un server
+CMD Arg - subcommand                            || Usa il comando senza sottocomando per l'aiuto.
+CMD Arg - username                              || Nome utente di un altro utente. Se non specificato viene utilizzato l'utente collegato al giocatore.
 CMD Arg Name - backup-file                      || backup-file
 CMD Arg Name - code                             || ${code}
-CMD Arg Name - export kind                      || export kind
-CMD Arg Name - feature                          || feature
-CMD Arg Name - import kind                      || import kind
-CMD Arg Name - name or uuid                     || name/uuid
+CMD Arg Name - export kind                      || tipo di esportazione
+CMD Arg Name - feature                          || funzionalità
+CMD Arg Name - import kind                      || tipo di importazione
+CMD Arg Name - name or uuid                     || nome/uuid
 CMD Arg Name - server                           || server
-CMD Arg Name - subcommand                       || subcommand
-CMD Arg Name - username                         || username
-Cmd Confirm - accept                            || Accept
-Cmd Confirm - cancelled, no data change         || Cancelled. No data was changed.
-Cmd Confirm - cancelled, unregister             || Cancelled. '${0}' was not unregistered
-Cmd Confirm - clearing db                       || You are about to remove all Plan-data in ${0}
-Cmd Confirm - confirmation                      || Confirm: 
-Cmd Confirm - deny                              || Cancel
-Cmd Confirm - Expired                           || Confirmation expired, use the command again
-Cmd Confirm - Fail on accept                    || The accepted action errored upon execution: ${0}
-Cmd Confirm - Fail on deny                      || The denied action errored upon execution: ${0}
-Cmd Confirm - overwriting db                    || You are about to overwrite data in Plan ${0} with data in ${1}
-Cmd Confirm - remove player db                  || You are about to remove data of ${0} from ${1}
-Cmd Confirm - unregister                        || You are about to unregister '${0}' linked to ${1}
-Cmd db - creating backup                        || Creating a backup file '${0}.db' with contents of ${1}
-Cmd db - removal                                || Removing Plan-data from ${0}..
-Cmd db - removal player                         || Removing data of ${0} from ${1}..
-Cmd db - server uninstalled                     || §aIf the server is still installed, it will automatically set itself as installed in the database.
-Cmd db - write                                  || Writing to ${0}..
+CMD Arg Name - subcommand                       || sottocomando
+CMD Arg Name - username                         || nomeutente
+Cmd Confirm - accept                            || Accetta
+Cmd Confirm - cancelled, no data change         || Annullato. Nessun dato è stato modificato.
+Cmd Confirm - cancelled, unregister             || Annullato. '${0}' non è stato rimosso
+Cmd Confirm - clearing db                       || Stai per rimuovere tutti i dati di Plan in ${0}
+Cmd Confirm - confirmation                      || Conferma: 
+Cmd Confirm - deny                              || Annulla
+Cmd Confirm - Expired                           || Conferma scaduta, utilizzare nuovamente il comando
+Cmd Confirm - Fail on accept                    || L'azione accettata ha avuto un errore durante l'esecuzione: ${0}
+Cmd Confirm - Fail on deny                      || L'azione negata ha avuto un errore durante l'esecuzione: ${0}
+Cmd Confirm - overwriting db                    || Stai per sovrascrivere i dati in Plan ${0} con dati in ${1}
+Cmd Confirm - remove player db                  || Stai per rimuovere i dati di ${0} da ${1}
+Cmd Confirm - unregister                        || Stai per rimuovere '${0}' collegato a ${1}
+Cmd db - creating backup                        || Creando file di backup '${0}.db' con contenuto di ${1}
+Cmd db - removal                                || Rimuovendi i dati di Plan da ${0}..
+Cmd db - removal player                         || Rimuovendo i dati di ${0} da ${1}..
+Cmd db - server uninstalled                     || §aSe il server è ancora installato, si imposterà automaticamente come installato nel database.
+Cmd db - write                                  || Scrivendo su ${0}..
 Cmd Disable - Disabled                          || §aPlan è stato disabilitato. Puoi usare reload per riavviare il plugin.
-Cmd FAIL - Accepts only these arguments         || Accepts following as ${0}: ${1}
+Cmd FAIL - Accepts only these arguments         || Accetta di seguito come${0}: ${1}
 Cmd FAIL - Database not open                    || §cDatabase è ${0} - Riprova più tardi.
-Cmd FAIL - Empty search string                  || The search string can not be empty
+Cmd FAIL - Empty search string                  || La stringa di ricerca non può essere vuota
 Cmd FAIL - Invalid Username                     || §cQuesto Utente non ha un UUID.
 Cmd FAIL - No Feature                           || §eDefinisci una feature da disabilitate! (Feature Supportate ${0})
 Cmd FAIL - No Permission                        || §cNon hai nessun permesso.
-Cmd FAIL - No player                            || Player '${0}' was not found, they have no UUID.
-Cmd FAIL - No player register                   || Player '${0}' was not found in the database.
-Cmd FAIL - No server                            || Server '${0}' was not found from the database.
+Cmd FAIL - No player                            || Il giocatore '${0}' non è stato trovato, non ha alcun UUID.
+Cmd FAIL - No player register                   || Il giocatore '${0}' non è stato trovato nel database.
+Cmd FAIL - No server                            || Il Server '${0}' non è stato trovato nel database.
 Cmd FAIL - Require only one Argument            || §cArgomento singolo richiesto ${1}
 Cmd FAIL - Requires Arguments                   || §cArgomenti richiesti (${0}) ${1}
 Cmd FAIL - see config                           || see '${0}' in config.yml
 Cmd FAIL - Unknown Username                     || §cGiocatore mai visto su questo server
-Cmd FAIL - Users not linked                     || User is not linked to your account and you don't have permission to remove other user's accounts.
+Cmd FAIL - Users not linked                     || L'utente non è collegato al tuo account e non sei autorizzato a rimuovere gli account di altri utenti.
 Cmd FAIL - WebUser does not exists              || §cGiocatore non esistente!
 Cmd FAIL - WebUser exists                       || §cGiocatore già esistente!
-Cmd Footer - Help                               || §7Hover over command or arguments or use '/${0} ?' to learn more about them.
+Cmd Footer - Help                               || §7Passa il mouse sopra il comando o gli argomenti oppure usa '/${0} ?' per scoprire di più.
 Cmd Header - Analysis                           || > §2Risultati Analisi
 Cmd Header - Help                               || > §2/${0} Help
 Cmd Header - Info                               || > §2Analisi Giocatore
@@ -74,7 +74,7 @@ Cmd Header - Network                            || > §2Pagina Network
 Cmd Header - Players                            || > §2Giocatori
 Cmd Header - Search                             || > §2${0} Risultati per §f${1}§2:
 Cmd Header - server list                        || id::name::uuid
-Cmd Header - Servers                            || > §2Servers
+Cmd Header - Servers                            || > §2Server
 Cmd Header - web user list                      || username::linked to::permission level
 Cmd Header - Web Users                          || > §2${0} Utenti Web
 Cmd Info - Bungee Connection                    ||   §2Connesso al Proxy: §f${0}
@@ -83,13 +83,13 @@ Cmd Info - Reload Complete                      || §aRicaricamento completato
 Cmd Info - Reload Failed                        || §cErrore durante il reload del plugin, un riavvio è raccomandato.
 Cmd Info - Update                               ||   §2Aggiornamento Disponibile: §f${0}
 Cmd Info - Version                              ||   §2Versione: §f${0}
-Cmd network - No network                        || Server is not connected to a network. The link redirects to server page.
-Cmd Notify - No Address                         || §eNo address was available - using localhost as fallback. Set up 'Alternative_IP' settings.
+Cmd network - No network                        || Il server non è connesso a una rete. Il collegamento reindirizza alla pagina del server.
+Cmd Notify - No Address                         || §eNessun indirizzo disponibile - utilizzando localhost come fallback. Configura le impostazioni "Alternative_IP".
 Cmd Notify - No WebUser                         || Nessun utente web registrato, usa /plan register <password>
 Cmd Notify - WebUser register                   || Nuovi utenti web registrati: '${0}' Livello permessi: ${1}
-Cmd Qinspect - Active Playtime                  ||   §2Active Playtime: §f${0}
+Cmd Qinspect - Active Playtime                  ||   §2Tempo di gioco attivo: §f${0}
 Cmd Qinspect - Activity Index                   ||   §2Indice Attività: §f${0} | ${1}
-Cmd Qinspect - AFK Playtime                     ||   §2AFK Time: §f${0}
+Cmd Qinspect - AFK Playtime                     ||   §2Tempo AFKe: §f${0}
 Cmd Qinspect - Deaths                           ||   §2Morti: §f${0}
 Cmd Qinspect - Geolocation                      ||   §2Loggato da: §f${0}
 Cmd Qinspect - Last Seen                        ||   §2Ultima visita: §f${0}
@@ -101,21 +101,21 @@ Cmd Qinspect - Registered                       ||   §2Registrato: §f${0}
 Cmd Qinspect - Times Kicked                     ||   §2Espulso: §f${0}
 Cmd SUCCESS - Feature disabled                  || §aDisabilitato temporaneamente '${0}' fino al prossimo reload del plugin.
 Cmd SUCCESS - WebUser register                  || §aAggiunto il nuovo utente (${0})!
-Cmd unregister - unregistering                  || Unregistering '${0}'..
+Cmd unregister - unregistering                  || Rimuovendo '${0}'..
 Cmd WARN - Database not open                    || §eDatabase è ${0} - Potrebbe volerci un pò di più tempo..
 Cmd Web - Permission Levels                     || >\§70: Accesso a tutte le pagine\§71: Accesso '/players' e tutti i dati dei giocatori\§72: Accedi alle pagine dei giocatori con lo stesso username dell'Utente Web.\§73+: Nessun permesso
-Command Help - /plan db                         || Manage Plan database
-Command Help - /plan db backup                  || Backup data of a database to a file
-Command Help - /plan db clear                   || Remove ALL Plan data from a database
+Command Help - /plan db                         || Gestisci il database di Plan
+Command Help - /plan db backup                  || Backup dei dati di un database in un file
+Command Help - /plan db clear                   || Rimuove TUTTI i dati di Plan dal database
 Command Help - /plan db hotswap                 || Cambia il database rapidamente
 Command Help - /plan db move                    || Sposta i dati tra i database
-Command Help - /plan db remove                  || Remove player's data from Current database
-Command Help - /plan db restore                 || Restore data from a file to a database
-Command Help - /plan db uninstalled             || Set a server as uninstalled in the database.
-Command Help - /plan disable                    || Disable the plugin or part of it
-Command Help - /plan export                     || Export html or json files manually
-Command Help - /plan import                     || Import data
-Command Help - /plan info                       || Information about the plugin
+Command Help - /plan db remove                  || Rimuovi i dati del giocatore dal database corrente
+Command Help - /plan db restore                 || Ripristina i dati da un file a un database
+Command Help - /plan db uninstalled             || Imposta un server come disinstallato nel database.
+Command Help - /plan disable                    || Disabilita il plugin o parte di esso
+Command Help - /plan export                     || Esporta html o json manualmente
+Command Help - /plan import                     || Importa dati
+Command Help - /plan info                       || Informazioni riguardo al plugin
 Command Help - /plan ingame                     || Mostra info dei giocatori in gioco
 Command Help - /plan json                       || View json of Player's raw data.
 Command Help - /plan network                    || Mostra la pagina del network
@@ -126,7 +126,7 @@ Command Help - /plan reload                     || Ricarica Plan
 Command Help - /plan search                     || Cerca il nome di un giocatore
 Command Help - /plan server                     || Mostra la pagina del server
 Command Help - /plan servers                    || Elenca i server nel Database
-Command Help - /plan unregister                 || Unregister a user of Plan website
+Command Help - /plan unregister                 || Rimuove un giocatore dal database Plan
 Command Help - /plan users                      || List all web users
 Database - Apply Patch                          || Applicando Patch: ${0}..
 Database - Patches Applied                      || Tutte le patch sono satte applicate al database.
@@ -141,7 +141,7 @@ Disable - Unsaved Session Save                  || Salvataggio di sessioni incom
 Disable - WebServer                             || Il Webserver è stato disabilitato.
 Enable                                          || Analisi Giocatori Abilitata.
 Enable - Database                               || ${0}-Connessione al database stabilita.
-Enable - Notify Bad IP                          || 0.0.0.0 is not a valid address, set up Alternative_IP settings. Incorrect links might be given!
+Enable - Notify Bad IP                          || 0.0.0.0 non è un indirizzo valido, imposta Alternative_IP.
 Enable - Notify Empty IP                        || L'IP in server.properties è vuoto e Alternative_IP non è in uso. Correggi queste informazioni!
 Enable - Notify Geolocations disabled           || Geolocalizazione non attiva. (Data.Geolocations: false)
 Enable - Notify Geolocations Internet Required  || Plan Richiede l'accesso a Internet al primo avvio per scaricare il database di geolocalizzazione GeoLite2.
@@ -157,7 +157,7 @@ HTML - COMPARING_60_DAYS                        || Comparazione di 30g fa a Ora
 HTML - COMPARING_7_DAYS                         || Comparazione di 7 giorni
 HTML - DATABASE_NOT_OPEN                        || Database non trovato, controlla il database con /plan info
 HTML - ERROR                                    || Autenticazione fallita a causa di un errore
-HTML - EXPIRED_COOKIE                           || User cookie has expired
+HTML - EXPIRED_COOKIE                           || Il cookie dell'utente è scaduto
 HTML - INDEX_ACTIVE                             || Attivo
 HTML - INDEX_INACTIVE                           || Inattivo
 HTML - INDEX_IRREGULAR                          || Irregolare
@@ -244,7 +244,7 @@ HTML - LOCAL_MACHINE                            || Macchina Locale
 HTML - NAV_PLUGINS                              || Plugins
 HTML - NEW_CALENDAR                             || Nuovo:
 HTML - NO_KILLS                                 || Nessuna Uccisione
-HTML - NO_USER_PRESENT                          || User cookie not present
+HTML - NO_USER_PRESENT                          || Il cookie dell'utente non esiste
 HTML - OFFLINE                                  ||  Offline
 HTML - ONLINE                                   ||  Online
 HTML - PER_DAY                                  || / Giorno
@@ -260,8 +260,8 @@ HTML - SIDE_PLAYERBASE                          || Playerbase
 HTML - SIDE_PLAYERBASE_OVERVIEW                 || Statistiche Playerbase
 HTML - SIDE_PLUGINS                             || PLUGINS
 HTML - SIDE_PVP_PVE                             || PvP & PvE
-HTML - SIDE_SERVERS                             || Servers
-HTML - SIDE_SERVERS_TITLE                       || SERVERS
+HTML - SIDE_SERVERS                             || Server
+HTML - SIDE_SERVERS_TITLE                       || SERVER
 HTML - SIDE_SESSIONS                            || Sessioni
 HTML - SIDE_TO_MAIN_PAGE                        || Ritorna alla pagina principale
 HTML - TEXT_CLICK_TO_EXPAND                     || Clicca per espendere
@@ -361,30 +361,30 @@ HTML ERRORS - PAGE_NOT_FOUND_404                || Questa pagina non esiste.
 HTML ERRORS - UNAUTHORIZED_401                  || Non Autorizzato
 HTML ERRORS - UNKNOWN_PAGE_404                  || Assicurati che stai seguendo il link usando il commando, Esempi:</p><p>/player/PlayerName<br>/server/ServerName</p>
 HTML ERRORS - UUID_404                          || UUID del Giocatore non trovato nel database.
-In Depth Help - /plan db                        || Use different database subcommands to change the data in some way
-In Depth Help - /plan db backup                 || Uses SQLite to backup the target database to a file.
-In Depth Help - /plan db clear                  || Clears all Plan tables, removing all Plan-data in the process.
-In Depth Help - /plan db hotswap                || Reloads the plugin with the other database and changes the config to match.
-In Depth Help - /plan db move                   || Overwrites contents in the other database with the contents in another.
-In Depth Help - /plan db remove                 || Removes all data linked to a player from the Current database.
-In Depth Help - /plan db restore                || Uses SQLite backup file and overwrites contents of the target database.
-In Depth Help - /plan db uninstalled            || Marks a server in Plan database as uninstalled so that it will not show up in server queries.
-In Depth Help - /plan disable                   || Disable the plugin or part of it until next reload/restart.
+In Depth Help - /plan db                        || Usa diversi sottocomandi del database per modificare i dati in qualche modo
+In Depth Help - /plan db backup                 || Usa SQLite per eseguire il backup del database di destinazione su un file.
+In Depth Help - /plan db clear                  || Cancella tutte le tabelle di Plan, rimuovendo tutti i dati di Plan nel processo.
+In Depth Help - /plan db hotswap                || Ricarica il plugin con l'altro database e modifica la configurazione in modo che corrisponda.
+In Depth Help - /plan db move                   || Sovrascrive i contenuti nell'altro database con i contenuti in un altro.
+In Depth Help - /plan db remove                 || Rimuove tutti i dati collegati a un giocatore dal database corrente.
+In Depth Help - /plan db restore                || Utilizza il file di backup SQLite e sovrascrive il contenuto del database di destinazione.
+In Depth Help - /plan db uninstalled            || Contrassegna un server nel database Plan come disinstallato in modo che non venga visualizzato nelle query del server.
+In Depth Help - /plan disable                   || Disabilita il plugin o parte di esso fino al successivo ricaricamento / riavvio.
 In Depth Help - /plan export                    || Performs an export to export location defined in the config.
-In Depth Help - /plan import                    || Performs an import to load data into the database.
-In Depth Help - /plan info                      || Display the current status of the plugin.
+In Depth Help - /plan import                    || Esegue un'importazione per caricare i dati nel database.
+In Depth Help - /plan info                      || Mostra lo stato attuale del plugin.
 In Depth Help - /plan ingame                    || Visualizza alcune informazioni sul giocatore in gioco.
-In Depth Help - /plan json                      || Allows you to download a player's data in json format. All of it.
-In Depth Help - /plan network                   || Obtain a link to the /network page, only does so on networks.
-In Depth Help - /plan player                    || Obtain a link to the /player page of a specific player, or the current player.
-In Depth Help - /plan players                   || Obtain a link to the /players page to see a list of players.
+In Depth Help - /plan json                      || Ti permette di scaricare i dati di un giocatore in formato json.
+In Depth Help - /plan network                   || Ottieni un link alla pagina /network, lo fa solo sulle reti.
+In Depth Help - /plan player                    || Ottieni un link alla pagina /player di un giocatore specifico o del giocatore corrente.
+In Depth Help - /plan players                   || Ottieni un link alla pagina /players per visualizzare un elenco di giocatori.
 In Depth Help - /plan register                  || Use without arguments to get link to register page. Use --code [code] after registration to get a user.
-In Depth Help - /plan reload                    || Disable and enable the plugin to reload any changes in config.
+In Depth Help - /plan reload                    || Disabilita e abilita il plugin per ricaricare le modifiche in config.
 In Depth Help - /plan search                    || List all matching player names to given part of a name.
 In Depth Help - /plan server                    || Obtain a link to the /server page of a specific server, or the current server if no arguments are given.
-In Depth Help - /plan servers                   || List ids, names and uuids of servers in the database.
+In Depth Help - /plan servers                   || Elenca ID, nomi e uuid dei server nel database.
 In Depth Help - /plan unregister                || Use without arguments to unregister player linked user, or with username argument to unregister another user.
-In Depth Help - /plan users                     || Lists web users as a table.
+In Depth Help - /plan users                     || Elenca gli utenti Web come tabella.
 Manage - Confirm Overwrite                      || Dati in ${0} saranno sovrascritti!
 Manage - Confirm Removal                        || Dati in ${0} saranno rimossi!
 Manage - Fail                                   || > §cErrore: ${0}
@@ -415,11 +415,11 @@ Version FAIL - Read versions.txt                || Informazioni sulla vesione no
 Web User Listing                                ||   §2${0} §7: §f${1}
 WebServer - Notify HTTP                         || WebServer: Nessun Certificato -> Uso ora server HTTP per la Visualizazione.
 WebServer - Notify HTTP User Auth               || WebServer: Autorizzazione  Utente Disabilitato! (Non sicuro su HTTP)
-WebServer - Notify HTTPS User Auth              || WebServer: User Authorization Disabled! (Disabled in config)
-Webserver - Notify IP Whitelist                 || Webserver: IP Whitelist is enabled.
-Webserver - Notify IP Whitelist Block           || Webserver: ${0} was denied access to '${1}'. (not whitelisted)
+WebServer - Notify HTTPS User Auth              || WebServer: Autorizzazione utente disabilitata! (Disabilitata dalla configurazione)
+Webserver - Notify IP Whitelist                 || Webserver: Whitelist di IP abilitata.
+Webserver - Notify IP Whitelist Block           || Webserver: ${0} è stato negato l'accesso a '${1}'. (non in whitelist)
 WebServer - Notify no Cert file                 || WebServer: Chiave del Certfiicato non trovato: ${0}
-WebServer - Notify Using Proxy                  || WebServer: Proxy-mode HTTPS enabled, make sure that your reverse-proxy is routing using HTTPS and Plan Alternative_IP.Link points to the Proxy
+WebServer - Notify Using Proxy                  || WebServer: HTTPS in modalità proxy abilitato, assicurati che il proxy inverso instradi utilizzando HTTPS e Plan Alternative_IP.link punta al proxy
 WebServer FAIL - EOF                            || WebServer: EOF when reading Certificate file. (Check that the file is not empty)
 WebServer FAIL - Port Bind                      || WebServer non avviato. La porta (${0}) è già occupata?
 WebServer FAIL - SSL Context                    || WebServer: Inilizazione Contenuto SSL Fallito.
